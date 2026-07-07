@@ -84,3 +84,23 @@
 main {
     background-color: #EAF5FE;
 }
+
+.barra_lateral{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 5px;
+}
+
+.etiquetas{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+}
+
+.etiquetas h3:hover{
+    background-color: #3E64DE;
+    color: white;
+}
